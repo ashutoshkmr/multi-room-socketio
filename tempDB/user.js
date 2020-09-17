@@ -26,7 +26,7 @@ const userLeave = (id) => {
 // Get room users
 const getRoomUsers = (room) => {
     return users.filter(user => user.room === room);
-};
+}
 
 module.exports = {
     userJoin,
